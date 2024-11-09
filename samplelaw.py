@@ -163,7 +163,7 @@ elif menu == "Book a Lawyer":
             date = st.date_input("Select Date")
         with col3:
             specialty = st.selectbox("Select Specialty", [
-                "Corporate Law", "Criminal Law", "Civil Law", "Real Estate Law",
+                "Criminal Law", "Croporate Law", "Civil Law", "Real Estate Law",
                 "Intellectual Property Law", "Tax Law", "Immigration Law", "Health Care Law"
             ])
         with col4:
@@ -192,9 +192,9 @@ elif menu == "Book a Lawyer":
                     <div style="border: 2px solid #f7941d; border-radius: 10px; padding: 15px; background-color: #222222;">
                         <img src="https://via.placeholder.com/150" width="100" style="border-radius: 50%;"/>
                         <h4 style="color: #f7941d;">Advocate Rajiv Kumar</h4>
-                        <p><strong>10 years</strong> - Criminal Law, Civil Law</p>
+                        <p><strong>10 years</strong> - Criminal Law</p>
                         <p>Karnataka High Court</p>
-                        <p><strong>₹3000</strong></p>
+                        <p><strong>₹2000</strong></p>
                         <p>⭐⭐⭐⭐☆</p>
                         <p>Available tomorrow at 3:00 PM</p>
                         <p><em>No Booking Fees</em></p>
@@ -211,9 +211,9 @@ elif menu == "Book a Lawyer":
                     <div style="border: 2px solid #f7941d; border-radius: 10px; padding: 15px; background-color: #222222;">
                         <img src="https://via.placeholder.com/150" width="100" style="border-radius: 50%;"/>
                         <h4 style="color: #f7941d;">Advocate Sneha Mehta</h4>
-                        <p><strong>15 years</strong> - Corporate Law, Tax Law</p>
+                        <p><strong>15 years</strong> - Criminal Law</p>
                         <p>Karnataka High Court</p>
-                        <p><strong>₹2200</strong></p>
+                        <p><strong>₹1800</strong></p>
                         <p>⭐⭐⭐⭐☆</p>
                         <p>Available tomorrow at 1:00 PM</p>
                         <p><em>No Booking Fees</em></p>
@@ -286,12 +286,12 @@ elif menu == "Legal Community Membership":
     
     st.write("""
     ### Why Join?
-    - **Networking Opportunities:** Connect with lawyers, paralegals, legal advisors, and students from various fields of law.
-    - **Exclusive Webinars & Events:** Attend online webinars and workshops hosted by top legal professionals. 
+    - **Networking Opportunities:** Connect with lawyers, paralegals, legal advisors.
     - **Stay Updated:** Get the latest updates on law changes, case studies, and legal trends delivered straight to your inbox.
-    - **Collaborative Learning:** Share knowledge and resources with other members to enhance your own understanding of legal matters.
     - **Access to Resources:** Gain access to exclusive resources, including templates, legal articles, case analyses, and much more.
-
+ ### How We Help:
+    - **For Lawyers**: Access valuable research on cases, find strong argument points, and stay ahead in your legal practice.
+    - **For Citizens**: Connect with experienced lawyers, find legal resources, and get guidance on various legal matters.
     ### Membership Benefits:
     - Free access to our legal insights newsletter.
     - Invitations to legal community events and networking sessions.
@@ -329,20 +329,21 @@ elif menu == "About Us":
     
     st.write("""
     ### Our Services:
-    Nyaya-Buddy offers a wide range of legal services, including:
-    - **24/7 Legal Consultation:** Get immediate access to lawyers and legal advisors for urgent matters.
-    - **Document Preparation and Review:** Ensure your contracts, agreements, and legal documents are properly drafted and reviewed by experts.
-    - **Case Analysis:** Use our case analysis feature to understand past cases that resemble your legal situation, helping you form a stronger argument or strategy.
-    - **Legal Resources and Tools:** Access valuable resources, including legal templates, advice columns, and guides to help navigate your legal journey.
-    - **Lawyer Referral Service:** We connect you with a qualified lawyer for further legal representation, wherever needed.
-
+    Nyaya-Buddy offers a comprehensive range of legal services to cater to both individuals and legal professionals, including:
+     -**24/7 Legal Consultation:** Immediate access to experienced lawyers and legal advisors for urgent legal matters, available around the clock.
+     -**Document Preparation and Review:** Ensure your contracts, agreements, and legal documents are accurately drafted and professionally reviewed by legal experts to protect your interests.
+     -**Case Analysis:** Leverage our case analysis feature to study past cases that closely resemble your legal situation, helping you formulate a stronger argument or strategy.
+     -**Legal Resources and Tools:** Access a library of valuable resources, including customizable legal templates, expert advice columns, and step-by-step guides to help you navigate your legal journey with confidence.
+     -**Lawyer Referral Service:** We connect you with a qualified and trusted lawyer for further legal representation when required, based on your specific needs and location.
+     -**Basic Legal Information:** Get straightforward explanations of legal terms, concepts, and procedures, empowering you with the knowledge to make informed decisions.
+     **Case Research and Analysis Using AI:** Our AI-powered tools assist in researching past case laws, identifying relevant legal precedents, and analyzing the strengths and weaknesses of your case, offering insights for more effective legal strategies.
     ### Our Team:
     Our team consists of seasoned legal professionals, consultants, and support staff who are dedicated to providing top-tier legal services and advice. We are committed to ensuring our clients receive prompt and reliable legal assistance in every situation.
 
     ### Contact Us:
     If you have any questions or need assistance, don't hesitate to reach out to us:
     - Email: **support@nyaya-buddy.com**
-    - Phone: **+91-XXXX-XXXX**
+    - Phone: **+91-9965784632**
     - Visit: **www.nyaya-buddy.com/contact**
 
     **Nyaya-Buddy** – Because legal matters shouldn’t be stressful.
